@@ -15,7 +15,7 @@ describe('microservice', function(){
     });
   });
 
-  it('stauts should be ok on /', function() {
+  it('status should be ok on /', function() {
     return axios.get(`http://localhost:${port}/`).then((res) => {
       expect(res.data.status).to.equal("ok");
     });
