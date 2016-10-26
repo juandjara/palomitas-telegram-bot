@@ -15,5 +15,9 @@
     "torrents"
   ],
   "author": "fuken <fuken.xyz>",
-  "license": "Unlicense"
+  "license": "Unlicense",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.0"
+  }
 }
