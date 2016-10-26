@@ -1,0 +1,19 @@
+{
+  "name": "palomitas-telegram-bot",
+  "version": "0.0.1",
+  "description": "bot de telegram conectado con distintas web de torrents",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "keywords": [
+    "palomitas",
+    "telegram",
+    "bot",
+    "telegram",
+    "bot",
+    "torrents"
+  ],
+  "author": "fuken <fuken.xyz>",
+  "license": "Unlicense"
+}
