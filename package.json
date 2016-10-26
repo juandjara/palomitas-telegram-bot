@@ -4,7 +4,7 @@
   "description": "bot de telegram conectado con distintas web de torrents",
   "main": "index.js",
   "scripts": {
-    "test": "",
+    "test": "mocha tests",
     "start": "node index.js"
   },
   "keywords": [
@@ -20,5 +20,11 @@
   "dependencies": {
     "cors": "^2.8.1",
     "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "axios": "^0.15.2",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "node-inspector": "^0.12.8"
   }
 }
